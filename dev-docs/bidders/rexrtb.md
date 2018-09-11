@@ -1,11 +1,11 @@
 ---
 layout: bidder
-title: rxrtb
-description: Prebid rxrtb Bidder Adaptor
+title: REXRTB
+description: Prebid REXRTB Bidder Adaptor
 top_nav_section: dev_docs
 nav_section: reference
 hide: true
-biddercode: rxrtb
+biddercode: rexrtb
 prebid_1_0_supported : true
 ---
 
@@ -16,4 +16,4 @@ prebid_1_0_supported : true
 |----------|----------|-------------------|--------------------------------------|-----------|
 | `id`     | required | endpoint id       | `123`                                | `integer` |
 | `token`  | required | endpoint token    | `'657f11a5efbbfe2f9be3f1f146fcbc22'` | `string`  |
-| `source` | required | traffic source id | `'prebidtest'`                       | `string`  |
+| `source` | optional | traffic source id | `'prebidtest'`                       | `string`  |
